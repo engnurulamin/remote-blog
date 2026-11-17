@@ -39,4 +39,13 @@ npm run build
 
 You can preview the production build with `npm run preview`.
 
+## Run DB
+
+To run local database UI
+
+```sh
+npm run db:studio
+```
+To push in DB `npm run db:push`.
+
 > To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
