@@ -8,5 +8,7 @@
 <svelte:head>
 	<link rel="icon" href={favicon} />
 </svelte:head>
+<main class="layout-readable center">
+	{@render children()}
+</main>
 
-{@render children()}
